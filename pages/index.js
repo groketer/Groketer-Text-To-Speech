@@ -64,10 +64,19 @@ export default function Home() {
       <h1>Groketer Text-to-Speech</h1>
 
       <label>Choose voice:</label>
-      <select value={voice} onChange={e => setVoice(e.target.value)} style={{ marginLeft: 8 }}>
-        <option value="alloy">Alloy (Male)</option>
-        <option value="verse">Verse (Female)</option>
-      </select>
+<select
+  value={voice}
+  onChange={(e) => setVoice(e.target.value)}
+  className="w-full border rounded p-2"
+>
+  {/* Female voices */}
+  <option value="verse">Rachel (Female)</option>
+  <option value="sage">Sophia (Female)</option>
+
+  {/* Male voices */}
+  <option value="alloy">Mwangi (Male)</option>
+  <option value="ash">Daniel (Male)</option>
+</select>
 
       <div style={{ marginTop: 12 }}>
         <textarea rows={10} style={{ width: '100%', padding: 12 }} value={text} onChange={e =>setText(e.target.value)} placeholder="Paste lesson script here..."></textarea>
