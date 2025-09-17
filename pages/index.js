@@ -70,12 +70,12 @@ export default function Home() {
   className="w-full border rounded p-2"
 >
   {/* Female voices */}
-  <option value="verse">Rachel (Female)</option>
+  <option value="verse">Daniel (Male)</option>
   <option value="sage">Sophia (Female)</option>
 
   {/* Male voices */}
-  <option value="alloy">Mwangi (Male)</option>
-  <option value="ash">Daniel (Male)</option>
+  <option value="alloy">Nancy (Male)</option>
+  <option value="ash">Mwangi (Male)</option>
 </select>
 
       <div style={{ marginTop: 12 }}>
