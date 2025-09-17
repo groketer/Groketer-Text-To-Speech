@@ -70,11 +70,11 @@ export default function Home() {
   className="w-full border rounded p-2"
 >
   {/* Female voices */}
-  <option value="verse">Daniel (Male)</option>
-  <option value="sage">Sophia (Female)</option>
+  <option value="verse">Enoch (Male)</option>
+  <option value="sage">Grace (Female)</option>
 
   {/* Male voices */}
-  <option value="alloy">Nancy (Male)</option>
+  <option value="alloy">Nancy (Female)</option>
   <option value="ash">Mwangi (Male)</option>
 </select>
 
